@@ -1,0 +1,118 @@
+
+body {
+	margin : 0;
+}
+
+    
+#container{
+	position : relative;
+	min-height : 100vh;
+}
+
+main {
+	padding-top: 110px ;
+	padding-bottom: 100px;
+}
+
+header{
+	padding: 20px ;
+	position: absolute ;
+	top :0;
+	width :100%;
+	height : 110px;
+	box-sizing: border-box;
+	background-color: #5E2097;
+}
+
+#sec_home a{
+	display: inline-block;
+	text-decoration: none;
+}
+
+.desc {
+	max-width: 300px;
+	overflow: hidden;
+	display :block;
+	border: 2px solid #5E2097 ;
+	border-radius: 10px;
+	box-shadow: 10px 10px 5px grey;
+}
+
+.desc p {
+	text-align: center;
+}
+.desc button {
+	display: block;
+	text-align: center;
+	margin:auto;
+}
+.desc h2{
+	text-align: center;
+	color: #F4CB00 ;
+}
+#sec_home {
+	margin-top : 50px; 
+	margin-bottom : 50px; 
+	display: flex;
+	flex-direction: horizontal ;
+	justify-content: space-around;
+}
+header h1 {
+	 
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color : #fff;
+	margin : 0;
+	padding: 10px ;
+	text-align: center;
+}
+
+#home_link{
+	float : right;
+	
+	margin-right: 1%;
+}
+
+
+form {
+	display : inline-block;
+	
+
+}
+
+input[type ="radio"]{
+	display: inline-block;
+}
+.questioncontent {
+  width: 50%;
+  padding: 12px 80px;
+  margin: 8px 0;
+  display: inline-block;
+  background-color: #E8E6E6;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.numquestion {
+	font-style: italic;
+	display: inline-block;
+	width: 10%;
+	
+	box-sizing: border-box ;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	background-color: #5E2097;
+	height: 100px;
+	width: 100%;
+
+}
+footer p {
+	margin: auto;
+	padding-top: 40px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color : #fff;
+	text-align: center;
+}

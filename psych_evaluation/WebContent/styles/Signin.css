@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans:400,700");
+
+
+body {
+  margin: 0;
+  padding:0;
+  font-family: "Nunito Sans",sans-serif;
+  font-weight: 400;
+ 
+	background : blue;
+
+  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.form-control{
+	padding : 4rem;
+}
+
+
+
+
+form{
+	background : blue;
+}
+
+.form-signin{
+ 		  background: white;
+		  border: 1px solid rgba(189, 189, 192, 0.2);
+		      	
+      }

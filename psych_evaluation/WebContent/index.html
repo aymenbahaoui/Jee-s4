@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>index</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="index_style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/primeui/4.1.15/primeui.min.css" />
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/primeui/4.1.15/primeui.min.js"></script>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/x-tag/1.5.11/x-tag-core.min.js"></script>
+	    <script src="https://cdn.jsdelivr.net/npm/primeui@4.1.15/primeelements.js"></script>
+</head>
+<body>
+	<div id = "container">
+		<header>
+			<div id = "home_link">
+				<a href = "index.html"><button is="p-button" icon="fa-home">Home</button></a>
+			</div>
+			<h1> Auto-Shrink </h1>
+			
+		</header>
+		<main>
+			<br> <br> <br>
+			<section id ="sec_home">
+			
+				<a href="AdminSignIn.jsp">
+					<div class ="desc">
+						<img  src="admin.png" alt="admin"/>
+						<h2>Admin</h2>
+						<button class="icononly" type="button">Go</button>
+					</div>
+				</a>
+
+				<a href="SignIn.jsp">
+					<div class ="desc">
+						<img  src="user.png" alt="user"/>
+						<h2>User</h2>
+						<button class="icononly" type="button">Go</button>
+					</div>
+				</a>
+
+				<a href="PsychSignIn.jsp">
+					<div class ="desc">
+						<img  src="shrink.png" alt="shrink"/>
+						<h2>Shrink</h2>
+						<button class="icononly" type="button">Go</button>
+					</div>
+				</a>
+
+			</section>
+			
+		</main>
+		
+		<footer>
+			<p>copyright &copy 2020</p>
+		</footer>
+	</div>
+	<script type="text/javascript">
+	$('.icononly').puibutton({
+		    icon: 'fa-step-forward'
+		    , iconPos: 'right'
+		});
+	</script>
+</body>
+
+</html>
